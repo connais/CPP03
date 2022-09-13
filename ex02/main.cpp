@@ -1,11 +1,13 @@
 #include "ClapTrap.hpp"
 #include "ScavTrap.hpp"
+#include "FragTrap.hpp"
 int main()
 {
     ClapTrap    bad("green boffoon");
     ClapTrap    good("Spyderman");
     ScavTrap    middle("optimus");
-
+    FragTrap    last("donatelo");
+    last.highFivesGuys();
     middle.guardGate();
     bad.setDamage(9);
     good.setDamage(10);
